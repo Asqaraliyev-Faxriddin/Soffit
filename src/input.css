@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+
+
+.navbar_container {
+    @apply bg-[#1c1c1e] flex justify-around h-[160px] items-center
+        
+      
+}
+.navbar_container2 {
+    @apply bg-[#1c1c1e] flex justify-around h-[180px] items-center
+        
+      
+}
+
+
+
+.iteams  {
+    @apply text-white  text-[16px] flex gap-6 max-md:hidden 
+}
+
+.iteams li {
+    @apply opacity-30
+}
+
+.iteams2 {
+    @apply text-white text-[16px]  max-md:hidden flex gap-1 border-[1px] border-white rounded-[75px]  h-[26px] items-center justify-center w-[86px] 
+}
+
+.container {
+    @apply max-w-[1370px]   ml-[5.9%] flex
+  }
+  .container2 {
+    @apply max-w-[1370px]   ml-[5.9%] 
+  }
+
+
+  .container3 {
+    @apply max-w-[1390px]   ml-[5.9%]  h-[400px]  max-md:h-[200px]
+  }
+
+
+
+.active {
+ @apply opacity-100! text-white line-through
+}
